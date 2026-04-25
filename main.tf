@@ -22,6 +22,7 @@ resource "aws_instance" "example4" {
 ami           = "ami-0ec10929233384c7f"  # Ubuntu (Mumbai region)
   instance_type = "t3.micro"
 tags = {
-    Name = "My-Third-Instance"
+    Name = "My-Third-Instance02"
   }
 }
+
